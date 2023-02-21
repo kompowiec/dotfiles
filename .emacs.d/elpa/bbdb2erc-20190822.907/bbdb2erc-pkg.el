@@ -1,0 +1,2 @@
+;;; Generated package description from bbdb2erc-20190822.907/bbdb2erc.el  -*- no-byte-compile: t -*-
+(define-package "bbdb2erc" "20190822.907" "make bbdb show if pal is online with ERC, click i to chat" '((bbdb "3.0")) :commit "40b89e961762af3e7ade3a1844a9fbcd4084ac65" :authors '(("Kevin Brubeck Unhammer" . "unhammer@fsfe.org")) :maintainer '("Kevin Brubeck Unhammer" . "unhammer@fsfe.org") :keywords '("irc" "contacts" "chat" "client" "internet"))

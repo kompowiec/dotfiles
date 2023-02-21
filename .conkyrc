@@ -1,0 +1,63 @@
+
+conky.config = {
+    alignment = 'top_right',
+    background = true,
+    border_width = 1,
+    cpu_avg_samples = 2,
+    default_color = 'grey',
+    default_outline_color = 'grey',
+    default_shade_color = 'grey',
+    double_buffer = true,
+    draw_borders = false,
+    draw_graph_borders = true,
+    draw_outline = false,
+    draw_shades = false,
+    extra_newline = false,
+    font = 'DejaVu Sans Mono:size=10',
+    gap_x = 15,
+    gap_y = 400,
+    minimum_height = 5,
+    minimum_width = 5,
+    net_avg_samples = 2,
+    no_buffers = true,
+    out_to_console = false,
+    out_to_ncurses = false,
+    out_to_stderr = false,
+    out_to_x = true,
+    own_window = true,
+    own_window_class = 'override',
+    own_window_type = 'clicky',
+    show_graph_range = false,
+    show_graph_scale = false,
+    stippled_borders = 0,
+    update_interval = 1.0,
+    uppercase = false,
+    use_spacer = 'none',
+    use_xft = true,
+}
+conky.text = [[
+${execpi saytime -r 3600} - hourly talking clock
+${voffset 2}${texeci 500 curl 'wttr.in/Bytom?format=%t'}
+${voffset 2}${texeci 500 curl 'wttr.in/Czeladz?format=%t'}
+${voffset 2}${texeci 500 curl 'wttr.in/Myslowice?format=%t'}
+${voffset -50}${offset 60}${exec date +"%H:%M:%S"}
+${voffset 5}${offset 60}TODO
+$hr
+${execpi 3600 ~/.config/conky/cal.lua}
+$hr
+${scroll 20 Conky $conky_version - $sysname $nodename $kernel $machine}
+${execpi 3600 ~/.config/conky/wikiquote.sh}
+$hr
+RAM ${offset 10}${membar 15,80}
+${voffset -16}${offset 65}${color red}${memfree}
+SWAP${offset 10}${swapbar 15,80}
+${voffset -16}${offset 65}${color green}${swap}
+CPU ${offset 10}${cpubar cpu0 15,80}
+${voffset -16}${offset 95}${color blue}$cpu%
+${voffset -48}${offset 130}${color grey}${fs_used /}
+
+${voffset -16}${offset 130}${upspeed wlp3s0}
+${hr 1}
+#${scroll 20 $moc_title}
+]]
+

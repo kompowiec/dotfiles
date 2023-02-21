@@ -1,0 +1,59 @@
+set nocompatible                " choose no compatibility with legacy vi
+set encoding=utf8
+set showcmd                     " display incomplete commands
+filetype on                    " required
+filetype plugin indent on       " load file type plugins + indentation
+ 
+"" Whitespace
+set tabstop=2 shiftwidth=2      " a tab is two spaces (or set this to 4)
+set backspace=indent,eol,start  " backspace through everything in insert mode
+         
+"" Searching
+set hlsearch                    " highlight matches
+set incsearch                   " incremental searching
+set ignorecase                  " searches are case insensitive...
+set smartcase                   " ... unless they contain at least one capital letter
+
+"" Formatting
+set textwidth=0 
+set wrapmargin=0
+
+syntax on
+set background=dark
+" set the runtime path to include Vundle and initialize
+set rtp+=~/.vim/bundle/Vundle.vim
+	call vundle#begin()
+	" let Vundle manage Vundle, required
+	Plugin 'VundleVim/Vundle.vim'
+	"Color scheme
+	"Plugin 'flazz/vim-colorschemes'
+	"ftplugin
+
+	"game
+	Plugin 'skywind3000/vim-keysound'
+	"ident
+	"utility
+	Plugin 'tpope/vim-surround'
+	Plugin 'christianrondeau/vim-base64'
+	"patch
+ 
+	" syntax
+	Plugin 'chikamichi/mediawiki.vim'
+	Plugin 'vim-scripts/bbcode' 
+	Plugin 'vim-scripts/icalendar.vim'
+	Plugin 'chrisbra/csv.vim'
+	Plugin 'kompowiec/CBOT.vim'
+	Plugin 'Galicarnax/vim-regex-syntax'
+	Plugin 'smancill/conky-syntax.vim'
+	Plugin 'bioSyntax/bioSyntax-vim'
+	Plugin 'jceb/vim-orgmode'
+	Plugin 'cespare/vim-toml'
+
+	call vundle#end()            " required
+
+"Folding
+augroup remember_folds
+  autocmd!
+  autocmd BufWinLeave * mkview
+  autocmd BufWinEnter * silent! loadview
+augroup END

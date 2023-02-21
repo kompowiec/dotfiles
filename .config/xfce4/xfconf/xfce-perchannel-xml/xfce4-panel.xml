@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<channel name="xfce4-panel" version="1.0">
+  <property name="configver" type="int" value="2"/>
+  <property name="panels" type="array">
+    <value type="int" value="1"/>
+    <value type="int" value="2"/>
+    <property name="dark-mode" type="bool" value="true"/>
+    <property name="panel-1" type="empty">
+      <property name="position" type="string" value="p=6;x=0;y=0"/>
+      <property name="length" type="uint" value="100"/>
+      <property name="position-locked" type="bool" value="true"/>
+      <property name="icon-size" type="uint" value="16"/>
+      <property name="size" type="uint" value="26"/>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="1"/>
+        <value type="int" value="2"/>
+        <value type="int" value="3"/>
+        <value type="int" value="4"/>
+        <value type="int" value="5"/>
+        <value type="int" value="6"/>
+        <value type="int" value="8"/>
+        <value type="int" value="10"/>
+        <value type="int" value="11"/>
+        <value type="int" value="12"/>
+        <value type="int" value="13"/>
+        <value type="int" value="14"/>
+      </property>
+    </property>
+    <property name="panel-2" type="empty">
+      <property name="autohide-behavior" type="uint" value="1"/>
+      <property name="position" type="string" value="p=10;x=0;y=0"/>
+      <property name="position-locked" type="bool" value="true"/>
+      <property name="size" type="uint" value="48"/>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="15"/>
+        <value type="int" value="16"/>
+        <value type="int" value="17"/>
+        <value type="int" value="18"/>
+        <value type="int" value="19"/>
+        <value type="int" value="20"/>
+        <value type="int" value="21"/>
+        <value type="int" value="7"/>
+        <value type="int" value="23"/>
+        <value type="int" value="22"/>
+      </property>
+    </property>
+  </property>
+  <property name="plugins" type="empty">
+    <property name="plugin-1" type="string" value="applicationsmenu"/>
+    <property name="plugin-2" type="string" value="tasklist">
+      <property name="grouping" type="uint" value="1"/>
+    </property>
+    <property name="plugin-3" type="string" value="separator">
+      <property name="expand" type="bool" value="true"/>
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-4" type="string" value="pager"/>
+    <property name="plugin-5" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-6" type="string" value="systray">
+      <property name="square-icons" type="bool" value="true"/>
+      <property name="known-legacy-items" type="array">
+        <value type="string" value="qbittorrent"/>
+        <value type="string" value="skypeforlinux"/>
+        <value type="string" value="pidgin"/>
+        <value type="string" value="hexchat"/>
+        <value type="string" value="gajim"/>
+        <value type="string" value="thunar"/>
+        <value type="string" value="networkmanager applet"/>
+        <value type="string" value="ibus panel"/>
+      </property>
+      <property name="known-items" type="array">
+        <value type="string" value="org.nicotine_plus.Nicotine"/>
+        <value type="string" value="Yakuake"/>
+        <value type="string" value="aw-qt"/>
+        <value type="string" value="chrome_status_icon_1"/>
+        <value type="string" value="vlc"/>
+        <value type="string" value="QuasselIRC"/>
+        <value type="string" value="TelegramDesktop"/>
+        <value type="string" value="Clementine"/>
+        <value type="string" value="qBittorrent"/>
+      </property>
+    </property>
+    <property name="plugin-8" type="string" value="pulseaudio">
+      <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
+      <property name="show-notifications" type="bool" value="true"/>
+      <property name="mpris-players" type="string" value="chromium.instance101169;chromium.instance10136;chromium.instance10234;chromium.instance10245;chromium.instance102817;chromium.instance104652;chromium.instance10483;chromium.instance10487;chromium.instance105845;chromium.instance106844;chromium.instance10845;chromium.instance11106;chromium.instance11329;chromium.instance11364;chromium.instance11403;chromium.instance11430;chromium.instance115124;chromium.instance11696;chromium.instance119289;chromium.instance12901;chromium.instance130466;chromium.instance13054;chromium.instance13171;chromium.instance13199;chromium.instance1324;chromium.instance13251;chromium.instance132715;chromium.instance13366;chromium.instance13409;chromium.instance13421;chromium.instance13437;chromium.instance1345;chromium.instance134713;chromium.instance1376;chromium.instance138017;chromium.instance13874;chromium.instance141281;chromium.instance14372;chromium.instance14434;chromium.instance147327;chromium.instance147985;chromium.instance14887;chromium.instance149012;chromium.instance150746;chromium.instance151476;chromium.instance1520;chromium.instance15286;chromium.instance1534;chromium.instance15352;chromium.instance15474;chromium.instance155465;chromium.instance15581;chromium.instance156946;chromium.instance1576;chromium.instance1580;chromium.instance15933;chromium.instance16111;chromium.instance1621;chromium.instance162115;chromium.instance162543;chromium.instance16272;chromium.instance16317;chromium.instance1638;chromium.instance1652;chromium.instance1659;chromium.instance1662;chromium.instance16797;chromium.instance1693;chromium.instance17076;chromium.instance17080;chromium.instance172046;chromium.instance17260;chromium.instance1754;chromium.instance175761;chromium.instance177213;chromium.instance17930;chromium.instance18041;chromium.instance18045;chromium.instance1809;chromium.instance181587;chromium.instance1838;chromium.instance184029;chromium.instance1844;chromium.instance18600;chromium.instance1863;chromium.instance1868;chromium.instance1872;chromium.instance18862;chromium.instance18989;chromium.instance1900;chromium.instance19012;chromium.instance190281;chromium.instance1908;chromium.instance190944;chromium.instance19351;chromium.instance1956;chromium.instance196043;chromium.instance1971;chromium.instance197141;chromium.instance19747;chromium.instance1981;chromium.instance198844;chromium.instance1991;chromium.instance19974;chromium.instance201003;chromium.instance2012;chromium.instance20289;chromium.instance2032;chromium.instance2039;chromium.instance20418;chromium.instance204544;chromium.instance20484;chromium.instance2062;chromium.instance2068;chromium.instance2077;chromium.instance208596;chromium.instance2125;chromium.instance21456;chromium.instance2148;chromium.instance215106;chromium.instance215743;chromium.instance2178;chromium.instance2187;chromium.instance21932;chromium.instance219534;chromium.instance221006;chromium.instance22426;chromium.instance226025;chromium.instance22805;chromium.instance228218;chromium.instance2288;chromium.instance2305;chromium.instance23316;chromium.instance23703;chromium.instance2382;chromium.instance2383;chromium.instance2385;chromium.instance2391;chromium.instance23914;chromium.instance2436;chromium.instance24490;chromium.instance24755;chromium.instance2515;chromium.instance2531;chromium.instance25310;chromium.instance2555;chromium.instance2557;chromium.instance25744;chromium.instance2597;chromium.instance2604;chromium.instance26258;chromium.instance2646;chromium.instance2662;chromium.instance2708;chromium.instance2722;chromium.instance2726;chromium.instance27334;chromium.instance27371;chromium.instance27383;chromium.instance2770;chromium.instance278746;chromium.instance28804;chromium.instance2893;chromium.instance2908;chromium.instance2929;chromium.instance2969;chromium.instance297930;chromium.instance3002;chromium.instance314388;chromium.instance31773;chromium.instance3185;chromium.instance32564;chromium.instance3279;chromium.instance33091;chromium.instance33384;chromium.instance33565;chromium.instance3367;chromium.instance338676;chromium.instance3467;chromium.instance34812;chromium.instance3522;chromium.instance35543;chromium.instance35868;chromium.instance3596;chromium.instance3640;chromium.instance36764;chromium.instance3756;chromium.instance37592;chromium.instance37630;chromium.instance3765;chromium.instance38211;chromium.instance3831;chromium.instance3885;chromium.instance3944;chromium.instance39563;chromium.instance39769;chromium.instance39776;chromium.instance3995;chromium.instance411369;chromium.instance4145;chromium.instance4184;chromium.instance41990;chromium.instance419962;chromium.instance42268;chromium.instance4321;chromium.instance437250;chromium.instance4399;chromium.instance44169;chromium.instance44423;chromium.instance4504;chromium.instance45611;chromium.instance4590;chromium.instance45946;chromium.instance46715;chromium.instance47888;chromium.instance4933;chromium.instance4966;chromium.instance50027;chromium.instance52568;chromium.instance52861;chromium.instance5341;chromium.instance53968;chromium.instance5405;chromium.instance5417;chromium.instance5539;chromium.instance5568;chromium.instance5680;chromium.instance57202;chromium.instance58012;chromium.instance58488;chromium.instance5860;chromium.instance5868;chromium.instance5908;chromium.instance5934;chromium.instance59518;chromium.instance5957;chromium.instance6243;chromium.instance6373;chromium.instance6520;chromium.instance66736;chromium.instance6801;chromium.instance6825;chromium.instance69167;chromium.instance7131;chromium.instance72165;chromium.instance73066;chromium.instance7549;chromium.instance7594;chromium.instance7642;chromium.instance7653;chromium.instance7744;chromium.instance7831;chromium.instance78749;chromium.instance78876;chromium.instance7891;chromium.instance8093;chromium.instance81189;chromium.instance8245;chromium.instance8394;chromium.instance8416;chromium.instance85670;chromium.instance8843;chromium.instance9080;chromium.instance9128;chromium.instance9240;chromium.instance9258;chromium.instance9324;chromium.instance94426;chromium.instance95012;chromium.instance95307;chromium.instance95533;chromium.instance9722;chromium.instance9793;chromium.instance9807;chromium.instance98858;chromium.instance9922;clementine;firefox.instance1005;firefox.instance10117;firefox.instance10281;firefox.instance10292;firefox.instance1036;firefox.instance107097;firefox.instance10759;firefox.instance10911;firefox.instance114545;firefox.instance11589;firefox.instance11610;firefox.instance11640;firefox.instance11872;firefox.instance12388;firefox.instance129700;firefox.instance1349;firefox.instance13759;firefox.instance1406;firefox.instance144080;firefox.instance146508;firefox.instance1477;firefox.instance1491;firefox.instance1506;firefox.instance154649;firefox.instance156109;firefox.instance1562;firefox.instance15737;firefox.instance1596;firefox.instance16068;firefox.instance1613;firefox.instance1632;firefox.instance1702;firefox.instance17696;firefox.instance18052;firefox.instance18272;firefox.instance18322;firefox.instance1852;firefox.instance18593;firefox.instance190876;firefox.instance19891;firefox.instance20104;firefox.instance2020;firefox.instance21716;firefox.instance2182;firefox.instance2196;firefox.instance22239;firefox.instance222955;firefox.instance23044;firefox.instance23579;firefox.instance24982;firefox.instance24994;firefox.instance2528;firefox.instance25619;firefox.instance26530;firefox.instance26957;firefox.instance28567;firefox.instance28570;firefox.instance2866;firefox.instance2868;firefox.instance2873;firefox.instance31176;firefox.instance32327;firefox.instance34813;firefox.instance36860;firefox.instance3833;firefox.instance38609;firefox.instance40038;firefox.instance4276;firefox.instance46085;firefox.instance48483;firefox.instance4871;firefox.instance49489;firefox.instance49517;firefox.instance49928;firefox.instance5048;firefox.instance5074;firefox.instance50806;firefox.instance5466;firefox.instance61337;firefox.instance6414;firefox.instance6499;firefox.instance6902;firefox.instance8574;firefox.instance8579;firefox.instance96892;firefox.instance997;GnomeMusic;rhythmbox;vlc"/>
+    </property>
+    <property name="plugin-9" type="string" value="power-manager-plugin"/>
+    <property name="plugin-10" type="string" value="notification-plugin"/>
+    <property name="plugin-11" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-12" type="string" value="clock">
+      <property name="mode" type="uint" value="2"/>
+      <property name="tooltip-format" type="string" value="%A %d %B %Y"/>
+      <property name="show-meridiem" type="bool" value="true"/>
+      <property name="fuzziness" type="uint" value="0"/>
+    </property>
+    <property name="plugin-13" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-14" type="string" value="actions"/>
+    <property name="plugin-15" type="string" value="showdesktop"/>
+    <property name="plugin-16" type="string" value="separator"/>
+    <property name="plugin-17" type="string" value="launcher">
+      <property name="items" type="array">
+      </property>
+    </property>
+    <property name="plugin-18" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="16448437742.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-19" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="16448437743.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-20" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="16448437744.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-21" type="string" value="separator"/>
+    <property name="plugin-22" type="string" value="directorymenu">
+      <property name="base-directory" type="string" value="/home/kompowiec"/>
+    </property>
+    <property name="plugin-7" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="16675746341.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-23" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="16706065941.desktop"/>
+      </property>
+    </property>
+  </property>
+</channel>

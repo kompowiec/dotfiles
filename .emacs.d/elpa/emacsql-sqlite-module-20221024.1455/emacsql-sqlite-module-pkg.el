@@ -1,2 +1,0 @@
-;;; Generated package description from emacsql-sqlite-module-20221024.1455/emacsql-sqlite-module.el  -*- no-byte-compile: t -*-
-(define-package "emacsql-sqlite-module" "20221024.1455" "EmacSQL back-end for SQLite using a module" '((emacs "25") (emacsql "3.1.1") (sqlite3 "0.16")) :commit "e318a6c8f65371e2ab667d811205a0d9a98dacbb" :authors '(("Jonas Bernoulli" . "jonas@bernoul.li")) :maintainer '("Jonas Bernoulli" . "jonas@bernoul.li") :url "https://github.com/magit/emacsql")

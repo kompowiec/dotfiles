@@ -17,8 +17,10 @@
 
 (global-set-key (kbd "C-1") 'cycle-ispell-languages)
 
-;
-(setq org-agenda-files '("/home/kompowiec/Org/"))
+;org
+(custom-set-variables
+ '(org-directory "/home/kompowiec/Org/")
+ '(org-agenda-files (list org-directory)))
 
 ;org-roam
 (setq org-roam-directory (file-truename "~/Org"))

@@ -2,13 +2,13 @@
 alias cls="ls -l | awk '{k=0;for(i=0;i<=8;i++)k+=((substr(\$1,i+2,1)~/[rwx]/)*2^(8-i));if(k)printf(\"%0o \",k);print}'" #awk required
 bind 'TAB:menu-complete' #zsh-like
 alias findR="find . -name" #Find recursive: FindR 'something'
-alias ytdl="youtube-dl"
-alias ytdl-mp3="youtube-dl --extract-audio --audio-format mp3"
+#alias ytdl="youtube-dl"
+#alias ytdl-mp3="youtube-dl --extract-audio --audio-format mp3"
 alias lsR="find . -name '*.*'"
 
 ##pip install
 alias autokey="/home/$USER/.local/bin/autokey"
-#alias youtube-dl="/home/$USER/.local/bin/youtube-dl"
+alias yt-dlp="/home/$USER/.local/bin/yt-dlp"
 alias pdfposter="/home/$USER/.local/bin/pdfposter"
 
 #other

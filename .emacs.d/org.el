@@ -1,6 +1,6 @@
 ;Automatic Item TODO/DOING/DONE State Transitions for Checkbox Changes 
 (setq org-todo-keywords
-			'((sequence "TODO" "NEXT" "REM" "|" "DONE" "DELEGATED" "DID")))
+			'((sequence "TODO" "NEXT" "|" "DONE" )))
 
 (setq org-agenda-include-diary t) ; diary
 (global-visual-line-mode t) ; line wrap

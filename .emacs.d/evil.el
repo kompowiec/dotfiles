@@ -1,4 +1,7 @@
-(require 'evil)
+;; Install Evil and disable C-i to jump forward to restore TAB functionality in Org mode.
+(use-package evil
+	     :init (setq evil-want-C-i-jump nil)
+	     :config (evil-mode))
 (defun toggle-evil-mode ()
 	"Toggle evil mode."
 	(interactive)
@@ -16,4 +19,3 @@
 																	 "Turn off Evil Mode"
 																	 "Turn on Evil Mode"))))
 (add-toggle-evil-mode-to-options-menu)
-(setq evil-want-C-i-jump nil) ;Tab functionality back

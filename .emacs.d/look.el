@@ -12,4 +12,6 @@
   :ensure t
   :init (global-flycheck-mode))
 
+(if (window-system)
+  (set-frame-height (selected-frame) 29))
 

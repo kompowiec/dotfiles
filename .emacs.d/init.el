@@ -1,4 +1,5 @@
-(load "~/.emacs.d/package-manager.el" nil t) ;; Set up package.el to work with MELPA
+(load "~/.emacs.d/termux.el" nil t)
+(load "~/.emacs.d/package-manager.el" nil t) ;; Set up package.el to work with MELP
 (load "~/.emacs.d/evil.el" nil t) ;; Enable Evil
 (load "~/.emacs.d/look.el" nil t)
 (load "~/.emacs.d/org.el" nil t)
@@ -22,10 +23,10 @@
  '(custom-enabled-themes '(doom-acario-dark))
  '(custom-safe-themes
    '("dccf4a8f1aaf5f24d2ab63af1aa75fd9d535c83377f8e26380162e888be0c6a9" default))
- '(org-agenda-files (list org-directory))
+ '(org-agenda-files nil)
  '(org-directory "/home/kompowiec/Org/")
  '(package-selected-packages
-   '(jabber erc org-roam-ui erc-crypt ## erc-image doom-themes emojify magit flycheck org-roam doom-modeline evil)))
+   '(the-matrix-theme jabber erc org-roam-ui erc-crypt ## erc-image doom-themes emojify magit flycheck org-roam doom-modeline evil)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

@@ -5,7 +5,6 @@
 (load "~/.emacs.d/org.el" nil t)
 (load "~/.emacs.d/ERC/connect.el" nil t)
 (load "~/.emacs.d/ERC/main.el" nil t)
-(load "~/.emacs.d/ERC/main.el" nil t)
 (load "~/.emacs.d/ERC/stegtoy.el" nil t)
 ;(load "~/.emacs.d/eww.el" nil t)
 ;;(load "~/.emacs.d/gnus.el" nil t)
@@ -20,13 +19,13 @@
    [default default default italic underline success warning error])
  '(ansi-color-names-vector
    ["#242424" "#e5786d" "#95e454" "#cae682" "#8ac6f2" "#333366" "#ccaa8f" "#f6f3e8"])
- '(custom-enabled-themes '(doom-acario-dark))
+ '(custom-enabled-themes '(leuven-dark))
  '(custom-safe-themes
-   '("dccf4a8f1aaf5f24d2ab63af1aa75fd9d535c83377f8e26380162e888be0c6a9" default))
+   '("ae69a486b10ff74fc6eb24cb01793bb1092a951e90e42a1084e8ecaf8b9c5258" "dccf4a8f1aaf5f24d2ab63af1aa75fd9d535c83377f8e26380162e888be0c6a9" default))
  '(org-agenda-files nil)
  '(org-directory "/home/kompowiec/Org/")
  '(package-selected-packages
-   '(the-matrix-theme jabber erc org-roam-ui erc-crypt ## erc-image doom-themes emojify magit flycheck org-roam doom-modeline evil)))
+   '(the-matrix-theme jabber erc org-roam-ui erc-crypt ## erc-image emojify magit flycheck org-roam doom-modeline evil)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

@@ -29,7 +29,7 @@
 You'll have to see it for yourself. --Morpheus")
 
 ;; colors
-(let* ((color-bg      "#000000")
+(let* ((color-bg      "#ffffff")
        (color-bg-alt  "#01120a")
        (color-bg-red  "#30000c")
        (color-bg-blue "#001e2e")

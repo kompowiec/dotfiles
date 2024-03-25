@@ -5,3 +5,7 @@
                   "/data/data/com.termux/files/usr/lib"
                   (getenv "LD_LIBRARY_PATH")))
 (push "/data/data/com.termux/files/usr/bin" exec-path)
+
+;TODO
+;;error: Eager macro-expansion failure: (error "Shortdoc f function ‘f-older
+;;«-p’: bad keyword ‘:noeval’")

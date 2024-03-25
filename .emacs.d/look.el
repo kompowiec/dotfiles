@@ -5,8 +5,8 @@
 (require 'use-package)
 (setq use-package-always-ensure t)
 
-(require 'doom-modeline)
-(doom-modeline-mode 1)
+;(require 'doom-modeline)
+;(doom-modeline-mode 1)
 
 (use-package flycheck
   :ensure t

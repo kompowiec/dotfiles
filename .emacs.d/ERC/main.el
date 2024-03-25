@@ -28,7 +28,3 @@
 (add-to-list 'erc-modules 'image)
 (setq erc-image-inline-resize-function 'erc-image-inline-resize-thumbnail)
 (erc-update-modules)
-
-;BETA
-(load-file "/home/kompowiec2/.emacs.d/elpa/erc-crypt-20200516.2054/erc-crypt.el") 
-(irc-e-on-off 1)

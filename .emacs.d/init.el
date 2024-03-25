@@ -25,7 +25,7 @@
  '(org-agenda-files nil)
  '(org-directory "/home/kompowiec/Org/")
  '(package-selected-packages
-   '(tok-theme the-matrix-theme jabber erc org-roam-ui erc-crypt ## erc-image emojify magit flycheck org-roam doom-modeline evil)))
+   '(the-matrix-theme org-roam-ui ## erc-image emojify magit flycheck org-roam evil)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

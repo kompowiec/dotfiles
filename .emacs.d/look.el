@@ -12,6 +12,10 @@
   :ensure t
   :init (global-flycheck-mode))
 
-(if (window-system)
-  (set-frame-height (selected-frame) 29))
+;(if (window-system)
+;  (set-frame-height (selected-frame) 29))
 
+(toggle-frame-maximized)
+
+(require 'yasnippet)
+(yas-global-mode 1)

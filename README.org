@@ -13,3 +13,7 @@ You can customize the number of commands saved in the history by setting the com
 (setq comint-input-ring-size 1000)
 
 Note that the command history is saved across ERC sessions, so you can recall commands you entered in previous sessions.
+
+** Cheatsheet
+while ! ollama run; do sleep 5; done
+

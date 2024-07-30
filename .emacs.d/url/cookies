@@ -1,0 +1,30 @@
+;; Emacs-W3 HTTP cookies file
+;; Automatically generated file!!! DO NOT EDIT!!!
+
+(setq url-cookie-storage
+ 'nil)
+(setq url-cookie-secure-storage
+ '((".youtube.com"
+  [url-cookie "__Secure-YEC" "Cgt0Z3puTW5TMlpERSihgvm0BjIiCgJQTBIcEhgSFhMLFBUWFwwYGRobHB0eHw4PIBAREiEgIQ%3D%3D" "Thu, 21-Aug-2025 11:23:12 GMT" "/" ".youtube.com" t]
+  [url-cookie "VISITOR_PRIVACY_METADATA" "CgJQTBIcEhgSFhMLFBUWFwwYGRobHB0eHw4PIBAREiEgIQ%3D%3D" "Thu, 21-Aug-2025 11:23:13 GMT" "/" ".youtube.com" t])
+ ("reddit.com"
+  [url-cookie "token_v2" "eyJhbGciOiJSUzI1NiIsImtpZCI6IlNIQTI1NjpzS3dsMnlsV0VtMjVmcXhwTU40cWY4MXE2OWFFdWFyMnpLMUdhVGxjdWNZIiwidHlwIjoiSldUIn0.eyJzdWIiOiJsb2lkIiwiZXhwIjoxNzIyMTg5MjcwLjM4MDQ4NywiaWF0IjoxNzIyMTAyODcwLjM4MDQ4NywianRpIjoiUmZBY2dnNnI0Q0V6MVhCNEVQUTJxbGtSWnZZMWR3IiwiY2lkIjoiMFItV0FNaHVvby1NeVEiLCJsaWQiOiJ0Ml8xNWZpa2Vqam40IiwibGNhIjoxNzIyMTAyODcwMzc1LCJzY3AiOiJlSnhra2RHT3REQUloZC1sMXo3Ql95cF9OaHRzY1lhc0xRYW9rM243RFZvY2s3MDdjTDRpSFA4bktJcUZMRTJ1QktHa0tXRUZXdE9VTmlMdjU4eTlPWkVGU3lGVFI4NDN5d29rYVVwUFVtTjVweWxSd1daa0xsZmFzVUtEQjZZcFZTNloyMEtQUzV2UTNJMUZ6MDZNcWx4V0h0VFlvM0pwYkdNSzJ4UGp6Y1pxUXlxdXk2bE1ZRmtvbjhXTGZ2eUctdFktZjdiZmhIWXdyS2dLRF9UT3VGeHdZX0hERkhiX25wcjBiRjJ3cUwzWGc5US0xLU4yN2JObW9kbTVfVnpQdnphU2NUbUc1aWZZdjd0LUNSMTQ1SG1aVVFjd1lnMF95ckFqNl9Ddk9vREtCUVdNSlloUEk1QXJsMl9fSmRpdVRmOGF0eWQtLUdiRVRXXzRyUm1vNXhMRW9VX2o2emNBQVBfX1hEX2U0dyIsImZsbyI6MX0.njqvtb4ppRrq5x71dRHrMwtKHSwlGFjXjA6NBdWE_cTgf-JaTiJ-Cg3qGOAdE_zg06T9qwMwTQFDttdWgeMRx8pbcDJWWnFjfVEW-9OWaou2_M-7MGLmWMBJMWlZ_fc0NC4Ofij17iXxB-seP0UbBZExocr819Qd5qowiPLTp9dNfRgGOeZG9LvZJGZdB2pJzUz1NXniEPndXdaZtwN5gi9W3bGmNa0wZaQa3zSkEKjBwX5a1ZfTrolnP8ozoStqeFoIa33C4sfGqPNJBfEbxzSJZ9Yu28BEpkIGZkqlapjHkFh_PS983XHcOCRaCOGkjqpVtWj9lBO3peuvfpXf0A" "Sun, 28 Jul 2024 17:54:30 GMT" "/" "reddit.com" t]
+  [url-cookie "edgebucket" "JHskGStxej0wFa0ldf" "pon lip 27 17:54:28 2026 GMT" "/" "reddit.com" t])
+ ("www.wikipedia.org"
+  [url-cookie "WMF-Last-Access" "28-Jul-2024" "Thu, 29 Aug 2024 00:00:00 GMT" "/" "www.wikipedia.org" t])
+ (".wikipedia.org"
+  [url-cookie "WMF-Last-Access-Global" "28-Jul-2024" "Thu, 29 Aug 2024 00:00:00 GMT" "/" ".wikipedia.org" t])
+ ("en.wikipedia.org"
+  [url-cookie "WMF-Last-Access" "28-Jul-2024" "Thu, 29 Aug 2024 00:00:00 GMT" "/" "en.wikipedia.org" t])
+ (".reddit.com"
+  [url-cookie "csv" "2" "pon lip 27 17:54:31 2026 GMT" "/" ".reddit.com" t]
+  [url-cookie "loid" "0000000015fikejjn4.2.1722102870375.Z0FBQUFBQm1wVFJXYnhJQXBUUTI2S2w0ZFVmZld2NTBWNTF6ZnJBX2NFNWVMMGxMa250RE0tWFB4ck8tNTZDOUZwZ1FNTnMySnRSVVRfTGtHQTR4blludnV3TTFzOFZmalNEaVFaWVdhVkwxUFdPMFMxZjJMbUI1dmJqeXlrT1lDOVE5VmdUZk1XeGU" "Mon, 27 Jul 2026 17:54:30 GMT" "/" ".reddit.com" t]))
+)
+
+;; Local Variables:
+;; version-control: never
+;; no-byte-compile: t
+;; coding: utf-8-emacs-unix
+;; End:
+
+;;; cookies ends here

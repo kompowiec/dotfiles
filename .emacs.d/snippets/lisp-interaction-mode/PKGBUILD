@@ -1,0 +1,90 @@
+# -*- mode: snippet -*-
+# name: PKGBUILD
+# key: <pkg
+# --
+# Maintainer: Your Name <youremail@domain.com>
+pkgname=examplepkg
+pkgver=1.0.0
+pkgrel=1
+epoch=0
+pkgdesc="A simple example package"
+arch=('x86_64')
+url="https://example.com"
+license=('MIT')
+groups=('examplegroup')
+depends=('glibc')
+makedepends=('gcc' 'make')
+checkdepends=('bash')
+optdepends=('vim: text editor')
+provides=('examplepkg')
+conflicts=('examplepkg-old')
+replaces=('examplepkg-old')
+backup=('etc/examplepkg.conf')
+options=('!strip' 'docs')
+install=examplepkg.install
+changelog=CHANGELOG
+source=("https://example.com/${pkgname}-${pkgver}.tar.gz")
+noextract=()
+validpgpkeys=()
+md5sums=('SKIP')
+sha1sums=('SKIP')
+sha224sums=('SKIP')
+sha256sums=('SKIP')
+sha384sums=('SKIP')
+cksums=('SKIP')
+b2sums=('SKIP')
+
+install=$pkgname.install
+changelog=$pkgname.changelog
+
+prepare() {
+    cd "$srcdir/${pkgname}-${pkgver}"
+    # Apply any patches here
+}
+
+build() {
+    cd "$srcdir/${pkgname}-${pkgver}"
+    ./configure --prefix=/usr
+    make
+}
+
+check() {
+    cd "$srcdir/${pkgname}-${pkgver}"
+    make check
+}
+
+package() {
+    cd "$srcdir/${pkgname}-${pkgver}"
+    make DESTDIR="$pkgdir/" install
+
+    # Install the license
+    install -Dm644 LICENSE "$pkgdir/usr/share/licenses/${pkgname}/LICENSE"
+
+    # Install configuration files
+    install -Dm644 examplepkg.conf "$pkgdir/etc/examplepkg.conf"
+}
+
+pre_install() {
+  echo "Running pre-install script..."
+}
+
+post_install() {
+  echo "Running post-install script..."
+}
+
+pre_upgrade() {
+  echo "Running pre-upgrade script..."
+}
+
+post_upgrade() {
+  echo "Running post-upgrade script..."
+}
+
+pre_remove() {
+  echo "Running pre-remove script..."
+}
+
+post_remove() {
+  echo "Running post-remove script..."
+}
+

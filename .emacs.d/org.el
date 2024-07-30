@@ -41,17 +41,28 @@
 
 ;duplicate
 (defun collect-duplicate-headings ()
-  (let (hls dups)
-    (save-excursion
-      (goto-char (point-max))
-      (while (re-search-backward org-complex-heading-regexp nil t)
-        (let* ((el (org-element-at-point))
-               (hl (org-element-property :title el))
-               (pos (org-element-property :begin el)))
-          (push (cons hl pos) hls)))
-      (dolist (hl hls)
-        (when (> (cl-count (car hl) (mapcar #'car hls)
-                           :test 'equal)
-                 1)
-          (push hl dups)))
-      (nreverse dups))))
+	;; Initialize empty lists to store headings and duplicates
+	(let (hls dups)
+		;; Save the current position to return to it later
+		(save-excursion
+			;; Move to the end of the buffer
+			(goto-char (point-max))
+			;; Search backward for Org mode headings using the complex heading regexp
+			(while (re-search-backward org-complex-heading-regexp nil t)
+						 ;; Extract the current element and its properties
+						 (let* ((el (org-element-at-point))
+										(hl (org-element-property :title el))
+										(pos (org-element-property :begin el)))
+							 ;; Store the heading and its position in the list
+							 (push (cons hl pos) hls)))
+			;; Iterate over the list of headings
+			(dolist (hl hls)
+				;; Check if the current heading appears more than once
+				(when (> (cl-count (car hl) (mapcar #'car hls)
+													 :test 'equal)
+								 1)
+					;; If it does, add it to the duplicates list
+					(push hl dups)))
+			;; Return the list of duplicates in reverse order
+			(nreverse dups))))
+

@@ -1,1 +1,7 @@
-nil
+((emoji--command-Emoji nil)
+ (emoji--command-Emoji\ >\ People nil)
+ (emoji--command-Emoji\ >\ People\ >\ symbol nil)
+ (emoji--command-Emoji\ >\ Smileys nil)
+ (emoji--command-Emoji\ >\ Smileys\ >\ monkey-face nil)
+ (emoji--command-Emoji\ >\ Symbols nil)
+ (emoji--command-Emoji\ >\ Symbols\ >\ other-symbol nil))

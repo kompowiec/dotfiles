@@ -57,9 +57,6 @@
 (require 'erc-netsplit)
 (erc-netsplit-mode t)
 
-;This section sets up erc to add a timestamp to each message.
-(erc-timestamp-mode t)
-(setq erc-timestamp-format "[%R-%m/%d]")
 
 ;This section disables erc button mode, which can cause erc to become slow when the buffer has many links.
 (erc-button-mode nil) ;slow
@@ -113,8 +110,6 @@
 (setq erc-autoaway-message "I'm away") ; Set the away message
 (add-hook 'erc-mode-hook 'erc-autoaway-mode) ; Enable automatic /away mode
 
-; Auto-reconnect to the IRC server if disconnected
-(setq erc-auto-reconnect t)
 
 ;emoji
 ;(use-package emojify

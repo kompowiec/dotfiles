@@ -1,0 +1,72 @@
+ERC-irccloud
+* USP
+** DONE integrates rich media (images, +videos+, GIFs
+*** TODO built-in support for popular platforms like YouTube, Spotify, and GitHub)
+*** seamless multimedia sharing
+**** DONE Voice messages (matrix)
+**** DONE Video calls (Jitsi)
+** DONE Add a sleek, customizable user interface with dark mode
+** TODO advanced notification systems 
+*** Sound
+*** DONE Visual bell
+*** Integrate AI-driven productivity tools
+**** task management
+**** meeting scheduling
+**** bot automation
+* Leverage Network Effects
+** DONE integration with other platforms like matrix or XMPP for cross-platform discussions (PIRC.PL)
+** Provide referral incentives such as special badges
+** allow channel admins to unlock premium channel features (like more participants or extra bots)
+**  exclusive themes for larger group invitations.
+* Emphasize Seamless Migration
+** import their old IRC settings
+** favorite channels
+** DONE past conversations from their existing IRC clients (pisg)
+* Build a Strong Privacy and Security Appeal
+** FAIL E2E
+** DONE secure DCC file transfers
+** enhanced privacy controls for users
+*** DONE cloaked IPs
+PIRC.PL
+*** DONE integrated VPN
+IRCcloud
+* Create FOMO through Early Adopter Perks
+** additional server space
+** faster performance
+** free custom bots
+** Reward
+*** create special badges
+*** unique nicknames
+* Offer Cross-Platform and Device Compatibility
+- IRCcloud
+- TheLongue
+- Convos.chat
+- ERC
+* Provide Generous Free Features
+** cloud storage for logs
+* Others
+Multiline message: c-q
+** TL;WM
+In GNU Emacs ERC, pressing `RET` (Enter key) by default sends the message rather than inserting a newline (`\n`). If you want to insert a newline inside your message instead of sending it, you can modify the key bindings. Here’s how you can do that:
+
+### Method 1: Use `C-q` (Quoted Insert)
+- While typing your message in ERC, press `C-q` (which stands for `Control + q`), followed by `RET`. This inserts a literal newline without sending the message.
+
+### Method 2: Change Key Binding for `RET`
+If you want to change the behavior of the `RET` key so that it inserts a newline instead of sending the message, you can add the following to your `.emacs` or `init.el`:
+
+```elisp
+(defun my-erc-insert-newline ()
+  (interactive)
+  (insert "\n"))
+
+(define-key erc-mode-map (kbd "RET") 'my-erc-insert-newline)
+(define-key erc-mode-map (kbd "C-c RET") 'erc-send-current-line)
+```
+
+In this setup:
+- Pressing `RET` will insert a newline.
+- To send the message, you would press `C-c RET`.
+
+This setup ensures you can format multiline messages easily.
+

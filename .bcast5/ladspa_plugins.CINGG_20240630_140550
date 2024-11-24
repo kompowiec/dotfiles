@@ -1,0 +1,111 @@
+4
+CINGG_20240630_140550
+3 "alias_1407.so" "L_Aliasing" 1719756320 1 1 0 0 1 0 1 0 1 0 0
+3 "allpass_1895.so" "L_Allpass delay line, noninterpolating" 1719756320 1 1 0 0 1 0 1 0 1 0 0
+3 "allpass_1895.so" "L_Allpass delay line, linear interpolation" 1719756320 1 1 0 0 1 0 1 0 1 0 1
+3 "allpass_1895.so" "L_Allpass delay line, cubic spline interpolation" 1719756320 1 1 0 0 1 0 1 0 1 0 2
+3 "am_pitchshift_1433.so" "L_AM pitchshifter" 1719756320 1 1 0 0 1 0 1 0 1 0 0
+3 "amp_1181.so" "L_Simple amplifier" 1719756320 1 1 0 0 1 0 1 0 1 0 0
+3 "analogue_osc_1416.so" "L_Analogue Oscillator" 1719756320 1 1 0 0 1 0 1 0 1 0 0
+3 "bandpass_a_iir_1893.so" "L_Glame Bandpass Analog Filter" 1719756320 1 1 0 0 1 0 1 0 1 0 0
+3 "bandpass_iir_1892.so" "L_Glame Bandpass Filter" 1719756320 1 1 0 0 1 0 1 0 1 0 0
+3 "bode_shifter_1431.so" "L_Bode frequency shifter" 1719756320 1 1 0 0 1 0 1 1 1 0 0
+3 "bode_shifter_cv_1432.so" "L_Bode frequency shifter (CV)" 1719756320 1 1 0 0 1 0 1 1 1 0 0
+3 "butterworth_1902.so" "L_Glame Butterworth X-over Filter" 1719756320 1 1 0 0 1 0 1 1 1 0 0
+3 "butterworth_1902.so" "L_GLAME Butterworth Lowpass" 1719756320 1 1 0 0 1 0 1 0 1 0 1
+3 "butterworth_1902.so" "L_GLAME Butterworth Highpass" 1719756320 1 1 0 0 1 0 1 0 1 0 2
+3 "chebstortion_1430.so" "L_Chebyshev distortion" 1719756320 1 1 0 0 1 0 1 0 1 0 0
+3 "comb_1190.so" "L_Comb Filter" 1719756320 1 1 0 0 1 0 1 0 1 0 0
+3 "comb_1887.so" "L_Comb delay line, noninterpolating" 1719756320 1 1 0 0 1 0 1 0 1 0 0
+3 "comb_1887.so" "L_Comb delay line, linear interpolation" 1719756320 1 1 0 0 1 0 1 0 1 0 1
+3 "comb_1887.so" "L_Comb delay line, cubic spline interpolation" 1719756320 1 1 0 0 1 0 1 0 1 0 2
+3 "comb_splitter_1411.so" "L_Comb Splitter" 1719756320 1 1 0 0 1 0 1 1 1 0 0
+3 "const_1909.so" "L_Constant Signal Generator" 1719756320 1 1 0 0 1 0 1 0 1 0 0
+3 "crossover_dist_1404.so" "L_Crossover distortion" 1719756320 1 1 0 0 1 0 1 0 1 0 0
+3 "dc_remove_1207.so" "L_DC Offset Remover" 1719756320 1 1 0 0 1 0 1 0 1 0 0
+3 "decay_1886.so" "L_Exponential signal decay" 1719756320 1 1 0 0 1 0 1 0 1 0 0
+3 "decimator_1202.so" "L_Decimator" 1719756320 1 1 0 0 1 0 1 0 1 0 0
+3 "declip_1195.so" "L_Declipper" 1719756320 1 1 0 0 1 0 1 0 1 0 0
+3 "delay_1898.so" "L_Simple delay line, noninterpolating" 1719756320 1 1 0 0 1 0 1 0 1 0 0
+3 "delay_1898.so" "L_Simple delay line, linear interpolation" 1719756320 1 1 0 0 1 0 1 0 1 0 1
+3 "delay_1898.so" "L_Simple delay line, cubic spline interpolation" 1719756320 1 1 0 0 1 0 1 0 1 0 2
+3 "delayorama_1402.so" "L_Delayorama" 1719756320 1 1 0 0 1 0 1 0 1 0 0
+3 "diode_1185.so" "L_Diode Processor" 1719756320 1 1 0 0 1 0 1 0 1 0 0
+3 "divider_1186.so" "L_Audio Divider (Suboctave Generator)" 1719756320 1 1 0 0 1 0 1 0 1 0 0
+3 "dj_eq_1901.so" "L_DJ EQ (mono)" 1719756320 1 1 0 0 1 0 1 0 1 0 0
+3 "dj_eq_1901.so" "L_DJ EQ" 1719756320 1 1 0 0 1 0 1 1 1 0 1
+3 "dj_flanger_1438.so" "L_DJ flanger" 1719756320 1 1 0 0 1 0 1 0 1 0 0
+3 "dyson_compress_1403.so" "L_Dyson compressor" 1719756320 1 1 0 0 1 0 1 0 1 0 0
+3 "fad_delay_1192.so" "L_Fractionally Addressed Delay Line" 1719756320 1 1 0 0 1 0 1 0 1 0 0
+3 "fast_lookahead_limiter_1913.so" "L_Fast Lookahead limiter" 1719756320 1 1 0 0 1 0 1 1 1 0 0
+3 "flanger_1191.so" "L_Flanger" 1719756320 1 1 0 0 1 0 1 0 1 0 0
+3 "fm_osc_1415.so" "L_FM Oscillator" 1719756320 1 1 0 0 1 0 1 0 1 0 0
+3 "foldover_1213.so" "L_Foldover distortion" 1719756320 1 1 0 0 1 0 1 0 1 0 0
+3 "foverdrive_1196.so" "L_Fast overdrive" 1719756320 1 1 0 0 1 0 1 0 1 0 0
+3 "freq_tracker_1418.so" "L_Frequency tracker" 1719756320 1 1 0 0 1 0 1 0 1 0 0
+3 "gate_1410.so" "L_Gate" 1719756320 1 1 0 0 1 0 1 0 1 0 0
+3 "giant_flange_1437.so" "L_Giant flange" 1719756320 1 1 0 0 1 0 1 0 1 0 0
+3 "gong_1424.so" "L_Gong model" 1719756320 1 1 0 0 1 0 1 0 1 0 0
+3 "gong_beater_1439.so" "L_Gong beater" 1719756320 1 1 0 0 1 0 1 0 1 0 0
+3 "gsm_1215.so" "L_GSM simulator" 1719756320 1 1 0 0 1 0 1 0 1 0 0
+3 "gverb_1216.so" "L_GVerb" 1719756320 1 1 0 0 1 0 1 1 1 0 0
+3 "hard_limiter_1413.so" "L_Hard Limiter" 1719756320 1 1 0 0 1 0 1 0 1 0 0
+3 "harmonic_gen_1220.so" "L_Harmonic generator" 1719756320 1 1 0 0 1 0 1 0 1 0 0
+3 "hermes_filter_1200.so" "L_Hermes Filter" 1719756320 1 1 0 0 1 0 1 0 1 0 0
+3 "highpass_iir_1890.so" "L_Glame Highpass Filter" 1719756320 1 1 0 0 1 0 1 0 1 0 0
+3 "hilbert_1440.so" "L_Hilbert transformer" 1719756320 1 1 0 0 1 0 1 1 1 0 0
+3 "imp_1199.so" "L_Impulse convolver" 1719756320 1 1 0 0 1 0 1 0 1 0 0
+3 "impulse_1885.so" "L_Nonbandlimited single-sample impulses (Frequency: Control)" 1719756320 1 1 0 0 1 0 1 0 1 0 0
+3 "inv_1429.so" "L_Inverter" 1719756320 1 1 0 0 1 0 1 0 1 0 0
+3 "karaoke_1409.so" "L_Karaoke" 1719756320 1 1 0 0 1 0 1 1 1 0 0
+3 "latency_1914.so" "L_Artificial latency" 1719756320 1 1 0 0 1 0 1 0 1 0 0
+3 "lcr_delay_1436.so" "L_L/C/R Delay" 1719756320 1 1 0 0 1 0 1 1 1 0 0
+3 "lowpass_iir_1891.so" "L_Glame Lowpass Filter" 1719756320 1 1 0 0 1 0 1 0 1 0 0
+3 "ls_filter_1908.so" "L_LS Filter" 1719756320 1 1 0 0 1 0 1 0 1 0 0
+3 "matrix_ms_st_1421.so" "L_Matrix: MS to Stereo" 1719756320 1 1 0 0 1 0 1 1 1 0 0
+3 "matrix_spatialiser_1422.so" "L_Matrix Spatialiser" 1719756320 1 1 0 0 1 0 1 1 1 0 0
+3 "matrix_st_ms_1420.so" "L_Matrix: Stereo to MS" 1719756320 1 1 0 0 1 0 1 1 1 0 0
+3 "mbeq_1197.so" "L_Multiband EQ" 1719756320 1 1 0 0 1 0 1 0 1 0 0
+3 "mod_delay_1419.so" "L_Modulatable delay" 1719756320 1 1 0 0 1 0 1 1 1 0 0
+3 "multivoice_chorus_1201.so" "L_Multivoice Chorus" 1719756320 1 1 0 0 1 0 1 0 1 0 0
+3 "notch_iir_1894.so" "L_Mag's Notch Filter" 1719756320 1 1 0 0 1 0 1 0 1 0 0
+3 "phasers_1217.so" "L_LFO Phaser" 1719756320 1 1 0 0 1 0 1 0 1 0 0
+3 "phasers_1217.so" "L_4 x 4 pole allpass" 1719756320 1 1 0 0 1 0 1 0 1 0 1
+3 "phasers_1217.so" "L_Auto phaser" 1719756320 1 1 0 0 1 0 1 0 1 0 2
+3 "pitch_scale_1193.so" "L_Pitch Scaler" 1719756320 1 1 0 0 1 0 1 0 1 0 0
+3 "pitch_scale_1194.so" "L_Higher Quality Pitch Scaler" 1719756320 1 1 0 0 1 0 1 0 1 0 0
+3 "plate_1423.so" "L_Plate reverb" 1719756320 1 1 0 0 1 0 1 1 1 0 0
+3 "pointer_cast_1910.so" "L_Pointer cast distortion" 1719756320 1 1 0 0 1 0 1 0 1 0 0
+3 "rate_shifter_1417.so" "L_Rate shifter" 1719756320 1 1 0 0 1 0 1 0 1 0 0
+3 "retro_flange_1208.so" "L_Retro Flanger" 1719756320 1 1 0 0 1 0 1 0 1 0 0
+3 "revdelay_1605.so" "L_Reverse Delay (5s max)" 1719756320 1 1 0 0 1 0 1 0 1 0 0
+3 "ringmod_1188.so" "L_Ringmod with two inputs" 1719756320 1 1 0 0 1 0 1 1 1 0 0
+3 "ringmod_1188.so" "L_Ringmod with LFO" 1719756320 1 1 0 0 1 0 1 0 1 0 1
+3 "satan_maximiser_1408.so" "L_Barry's Satan Maximiser" 1719756320 1 1 0 0 1 0 1 0 1 0 0
+3 "sc1_1425.so" "L_SC1" 1719756320 1 1 0 0 1 0 1 0 1 0 0
+3 "sc2_1426.so" "L_SC2" 1719756320 1 1 0 0 1 0 1 1 1 0 0
+3 "sc3_1427.so" "L_SC3" 1719756320 1 1 0 0 1 0 1 1 1 0 0
+3 "sc4_1882.so" "L_SC4" 1719756320 1 1 0 0 1 0 1 1 1 0 0
+3 "sc4m_1916.so" "L_SC4 mono" 1719756320 1 1 0 0 1 0 1 0 1 0 0
+3 "se4_1883.so" "L_SE4" 1719756320 1 1 0 0 1 0 1 1 1 0 0
+3 "shaper_1187.so" "L_Wave shaper" 1719756320 1 1 0 0 1 0 1 0 1 0 0
+3 "sifter_1210.so" "L_Signal sifter" 1719756320 1 1 0 0 1 0 1 0 1 0 0
+3 "sin_cos_1881.so" "L_Sine + cosine oscillator" 1719756320 1 1 0 0 1 0 1 1 1 0 0
+3 "single_para_1203.so" "L_Single band parametric" 1719756320 1 1 0 0 1 0 1 0 1 0 0
+3 "sinus_wavewrapper_1198.so" "L_Sinus wavewrapper" 1719756320 1 1 0 0 1 0 1 0 1 0 0
+3 "smooth_decimate_1414.so" "L_Smooth Decimator" 1719756320 1 1 0 0 1 0 1 0 1 0 0
+3 "split_1406.so" "L_Mono to Stereo splitter" 1719756320 1 1 0 0 1 0 1 1 1 0 0
+3 "step_muxer_1212.so" "L_Step Demuxer" 1719756320 1 1 0 0 1 0 1 1 1 0 0
+3 "surround_encoder_1401.so" "L_Surround matrix encoder" 1719756320 1 1 0 0 1 0 1 1 1 0 0
+3 "svf_1214.so" "L_State Variable Filter" 1719756320 1 1 0 0 1 0 1 0 1 0 0
+3 "tape_delay_1211.so" "L_Tape Delay Simulation" 1719756320 1 1 0 0 1 0 1 0 1 0 0
+3 "transient_1206.so" "L_Transient mangler" 1719756320 1 1 0 0 1 0 1 0 1 0 0
+3 "triple_para_1204.so" "L_Triple band parametric with shelves" 1719756320 1 1 0 0 1 0 1 0 1 0 0
+3 "valve_1209.so" "L_Valve saturation" 1719756320 1 1 0 0 1 0 1 0 1 0 0
+3 "valve_rect_1405.so" "L_Valve rectifier" 1719756320 1 1 0 0 1 0 1 0 1 0 0
+3 "vocoder_1337.so" "L_Vocoder" 1719756320 1 1 0 0 1 0 1 1 1 0 0
+3 "vynil_1905.so" "L_VyNil (Vinyl Effect)" 1719756320 1 1 0 0 1 0 1 1 1 0 0
+3 "wave_terrain_1412.so" "L_Wave Terrain Oscillator" 1719756320 1 1 0 0 1 0 1 1 1 0 0
+3 "xfade_1915.so" "L_Crossfade" 1719756320 1 1 0 0 1 0 1 1 1 0 0
+3 "xfade_1915.so" "L_Crossfade (4 outs)" 1719756320 1 1 0 0 1 0 1 1 1 0 1
+3 "zm1_1428.so" "L_z-1" 1719756320 1 1 0 0 1 0 1 0 1 0 0

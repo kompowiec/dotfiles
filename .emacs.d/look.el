@@ -19,3 +19,24 @@
 
 (require 'yasnippet)
 (yas-global-mode 1)
+(require 'command-log-mode)
+
+(require 'winum)
+
+(setq Man-notify-method 'pushy
+      winum-scope 'frame-local)
+
+(defun winum-replace-window (window-number key-sequence)
+  (interactive "P\nkKey sequence: ")
+  (let ((sym (key-binding key-sequence))
+        (num (if window-number window-number (winum-get-number))))
+    (winum-select-window-by-number num)
+    (call-interactively sym)))
+
+(defun kill-buffer-ext (&optional arg)
+  "When ARG is t - prompt for buffer to kill.  Otherwise kill current buffer."
+  (interactive "P")
+  (if (eq arg nil)
+      (kill-this-buffer)
+    (call-interactively 'kill-buffer)))
+(global-set-key (kbd "C-x k") 'kill-buffer-ext)

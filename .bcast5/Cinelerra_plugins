@@ -1,0 +1,449 @@
+4
+CINGG_20240630_140550
+1 "audio/audioscope.plugin" "AudioScope" 1719756320 4 1 0 0 1 0 1 1 0 0 -1
+1 "audio/cdripper.plugin" "CD Ripper" 1719756320 4 1 0 0 0 0 1 1 0 0 -1
+1 "audio/chorus.plugin" "Chorus" 1719756320 4 1 0 0 1 0 1 1 1 0 -1
+1 "audio/compressor.plugin" "Compressor" 1719756320 4 1 0 0 1 0 1 1 0 0 -1
+1 "audio/compressormulti.plugin" "Compressor Multi" 1719756320 4 1 0 0 1 0 1 1 0 0 -1
+1 "audio/dcoffset.plugin" "DC Offset" 1719756320 4 1 0 0 1 0 1 0 0 0 -1
+1 "audio/delayaudio.plugin" "Delay audio" 1719756320 4 1 0 0 1 0 1 0 0 0 -1
+1 "audio/denoise.plugin" "Denoise" 1719756320 4 1 0 0 1 0 1 0 0 0 -1
+1 "audio/denoisefft.plugin" "DenoiseFFT" 1719756320 4 1 0 0 1 0 1 0 0 0 -1
+1 "audio/despike.plugin" "Despike" 1719756320 4 1 0 0 1 0 1 0 0 0 -1
+1 "audio/echo.plugin" "Echo" 1719756320 4 1 0 0 1 0 1 1 0 0 -1
+1 "audio/echocancel.plugin" "EchoCancel" 1719756320 4 1 0 0 1 0 1 0 0 0 -1
+1 "audio/flanger.plugin" "Flanger" 1719756320 4 1 0 0 1 0 1 0 0 0 -1
+1 "audio/freeverb.plugin" "Freeverb" 1719756320 4 1 0 0 1 0 1 1 0 0 -1
+1 "audio/gain.plugin" "Gain" 1719756320 4 1 0 0 1 0 1 0 0 0 -1
+1 "audio/graphic.plugin" "EQ Graphic" 1719756320 4 1 0 0 1 0 1 0 0 0 -1
+1 "audio/interpolateaudio.plugin" "Interpolate" 1719756320 4 1 0 0 1 0 1 0 0 0 -1
+1 "audio/invertaudio.plugin" "Invert Audio" 1719756320 4 1 0 0 1 0 1 0 0 0 -1
+1 "audio/leveleffect.plugin" "SoundLevel" 1719756320 4 1 0 0 1 0 1 0 0 0 -1
+1 "audio/loopaudio.plugin" "Loop audio" 1719756320 4 1 0 0 1 0 1 0 1 0 -1
+1 "audio/normalize.plugin" "Normalize" 1719756320 4 1 0 0 0 0 1 1 0 0 -1
+1 "audio/overlayaudio.plugin" "Overlay" 1719756320 4 1 0 0 1 0 1 1 0 0 -1
+1 "audio/parametric.plugin" "EQ Parametric" 1719756320 4 1 0 0 1 0 1 0 0 0 -1
+1 "audio/pitch.plugin" "Pitch shift" 1719756320 4 1 0 0 1 0 1 0 0 0 -1
+1 "audio/removegaps.plugin" "Remove Gaps" 1719756320 4 1 0 0 1 0 1 0 0 0 -1
+1 "audio/resample.plugin" "Resample" 1719756320 4 1 0 0 0 0 1 0 0 0 -1
+1 "audio/resamplert.plugin" "ResampleRT" 1719756320 4 1 0 0 1 0 1 0 1 0 -1
+1 "audio/reverb.plugin" "Reverb" 1719756320 4 1 0 0 1 0 1 1 1 0 -1
+1 "audio/reverseaudio.plugin" "Reverse audio" 1719756320 4 1 0 0 1 0 1 0 0 0 -1
+1 "audio/spectrogram.plugin" "Spectrogram" 1719756320 4 1 0 0 1 0 1 0 0 0 -1
+1 "audio/synthesizer.plugin" "Synthesizer" 1719756320 4 1 0 0 1 0 1 0 1 0 -1
+1 "audio/timestretch.plugin" "Time stretch" 1719756320 4 1 0 0 0 0 1 0 0 0 -1
+1 "audio/timestretchrt.plugin" "Time Stretch RT" 1719756320 4 1 0 0 1 0 1 0 1 0 -1
+1 "audio/tremolo.plugin" "Tremolo" 1719756320 4 1 0 0 1 0 1 0 0 0 -1
+1 "opencv/findobj.plugin" "FindObj" 1719756320 5 0 1 0 1 0 1 1 0 0 -1
+1 "opencv/flowobj.plugin" "FlowObj" 1719756320 5 0 1 0 1 0 1 0 0 0 -1
+1 "opencv/gaborobj.plugin" "GaborObj" 1719756320 5 0 1 0 1 0 1 0 0 0 -1
+1 "opencv/moveobj.plugin" "MoveObj" 1719756320 5 0 1 0 1 0 1 0 0 0 -1
+1 "opencv/puzzleobj.plugin" "PuzzleObj" 1719756320 5 0 1 0 1 0 1 0 0 0 -1
+1 "opencv/stylizeobj.plugin" "StylizeObj" 1719756320 5 0 1 0 1 0 1 0 0 0 -1
+1 "themes/theme_blond.plugin" "Blond" 1719756320 7 0 0 1 0 0 1 0 0 0 -1
+1 "themes/theme_blond_cv.plugin" "Blond-cv" 1719756320 7 0 0 1 0 0 1 0 0 0 -1
+1 "themes/theme_blue.plugin" "Blue" 1719756320 7 0 0 1 0 0 1 0 0 0 -1
+1 "themes/theme_blue_dot.plugin" "Blue Dot" 1719756320 7 0 0 1 0 0 1 0 0 0 -1
+1 "themes/theme_bright.plugin" "Bright" 1719756320 7 0 0 1 0 0 1 0 0 0 -1
+1 "themes/theme_cakewalk.plugin" "Cakewalk" 1719756320 7 0 0 1 0 0 1 0 0 0 -1
+1 "themes/theme_hulk.plugin" "Hulk" 1719756320 7 0 0 1 0 0 1 0 0 0 -1
+1 "themes/theme_neophyte.plugin" "Neophyte" 1719756320 7 0 0 1 0 0 1 0 0 0 -1
+1 "themes/theme_pinklady.plugin" "PinkLady" 1719756320 7 0 0 1 0 0 1 0 0 0 -1
+1 "themes/theme_suv.plugin" "S.U.V." 1719756320 7 0 0 1 0 0 1 0 0 0 -1
+1 "themes/theme_unflat.plugin" "UnFlat" 1719756320 7 0 0 1 0 0 1 0 0 0 -1
+1 "video/1080to480.plugin" "1080 to 480" 1719756320 8 0 1 0 1 0 1 0 0 0 -1
+1 "video/1080to540.plugin" "1080 to 540" 1719756320 8 0 1 0 1 0 1 0 0 0 -1
+1 "video/720to480.plugin" "720 to 480" 1719756320 8 0 1 0 0 0 1 0 0 0 -1
+1 "video/aging.plugin" "AgingTV" 1719756320 8 0 1 0 1 0 1 0 0 0 -1
+1 "video/alpha.plugin" "Alpha" 1719756320 8 0 1 0 1 0 1 0 1 0 -1
+1 "video/bandslide.plugin" "BandSlide" 1719756320 8 0 1 0 0 0 1 0 0 1 -1
+1 "video/bandwipe.plugin" "BandWipe" 1719756320 8 0 1 0 0 0 1 0 0 1 -1
+1 "video/bluebanana.plugin" "Blue Banana" 1719756320 8 0 1 0 1 0 1 0 0 0 -1
+1 "video/blur.plugin" "Blur" 1719756320 8 0 1 0 1 0 1 0 0 0 -1
+1 "video/boxblur.plugin" "BoxBlur" 1719756320 8 0 1 0 1 0 1 0 0 0 -1
+1 "video/brightness.plugin" "Brightness/Contrast" 1719756320 8 0 1 0 1 0 1 0 0 0 -1
+1 "video/burn.plugin" "BurningTV" 1719756320 8 0 1 0 1 0 1 0 0 0 -1
+1 "video/C41.plugin" "C41" 1719756320 8 0 1 0 1 0 1 0 1 0 -1
+1 "video/chromakey.plugin" "Chroma key" 1719756320 8 0 1 0 1 0 1 0 0 0 -1
+1 "video/chromakeyavid.plugin" "Chroma key (Avid)" 1719756320 8 0 1 0 1 0 1 0 0 0 -1
+1 "video/chromakeyhsv.plugin" "Chroma key (HSV)" 1719756320 8 0 1 0 1 0 1 0 0 0 -1
+1 "video/color3way.plugin" "Color 3 Way" 1719756320 8 0 1 0 1 0 1 0 0 0 -1
+1 "video/colorbalance.plugin" "Color Balance" 1719756320 8 0 1 0 1 0 1 0 0 0 -1
+1 "video/colorspace.plugin" "ColorSpace" 1719756320 8 0 1 0 1 0 1 0 0 0 -1
+1 "video/crikey.plugin" "CriKey" 1719756320 8 0 1 0 1 0 1 0 0 0 -1
+1 "video/cropp.plugin" "Crop & Position" 1719756320 8 0 1 0 1 0 1 0 0 0 -1
+1 "video/crossfade.plugin" "Crossfade" 1719756320 8 1 0 0 0 0 0 0 0 1 -1
+1 "video/decimate.plugin" "Decimate" 1719756320 8 0 1 0 1 0 1 0 0 0 -1
+1 "video/deinterlace-cv.plugin" "Deinterlace-CV" 1719756320 8 0 1 0 1 0 1 0 0 0 -1
+1 "video/deinterlace.plugin" "Deinterlace" 1719756320 8 0 1 0 1 0 1 0 0 0 -1
+1 "video/delayvideo.plugin" "Delay Video" 1719756320 8 0 1 0 1 0 1 0 0 0 -1
+1 "video/denoisevideo.plugin" "Denoise video" 1719756320 8 0 1 0 1 0 1 0 0 0 -1
+1 "video/descratch.plugin" "DeScratch" 1719756320 8 0 1 0 1 0 1 0 0 0 -1
+1 "video/diffkey.plugin" "Difference key" 1719756320 8 0 1 0 1 0 1 1 0 0 -1
+1 "video/dissolve.plugin" "Dissolve" 1719756320 8 0 1 0 0 0 0 0 0 1 -1
+1 "video/dot.plugin" "DotTV" 1719756320 8 0 1 0 1 0 1 0 0 0 -1
+1 "video/downsample.plugin" "Downsample" 1719756320 8 0 1 0 1 0 1 0 0 0 -1
+1 "video/edge.plugin" "Edge" 1719756320 8 0 1 0 1 0 1 0 0 0 -1
+1 "video/fieldframe.plugin" "Fields to frames" 1719756320 8 0 1 0 1 0 1 0 0 0 -1
+1 "video/flash.plugin" "Flash" 1719756320 8 0 1 0 0 0 0 0 0 1 -1
+1 "video/flip.plugin" "Flip" 1719756320 8 0 1 0 1 0 1 0 0 0 -1
+1 "video/foreground.plugin" "Foreground" 1719756320 8 0 1 0 1 0 1 0 1 0 -1
+1 "video/framefield.plugin" "Frames to fields" 1719756320 8 0 1 0 1 0 1 0 0 0 -1
+1 "video/freezeframe.plugin" "Freeze Frame" 1719756320 8 0 1 0 1 0 1 0 1 0 -1
+1 "video/gamma.plugin" "Gamma" 1719756320 8 0 1 0 1 0 1 0 0 0 -1
+1 "video/gradient.plugin" "Gradient" 1719756320 8 0 1 0 1 0 1 0 1 0 -1
+1 "video/histeq.plugin" "HistEq" 1719756320 8 0 1 0 1 0 1 0 0 0 -1
+1 "video/histogram.plugin" "Histogram" 1719756320 8 0 1 0 1 0 1 0 0 0 -1
+1 "video/histogram_bezier.plugin" "Histogram Bezier" 1719756320 8 0 1 0 1 0 1 0 0 0 -1
+1 "video/holo.plugin" "HolographicTV" 1719756320 8 0 1 0 1 0 1 0 0 0 -1
+1 "video/huesaturation.plugin" "Hue saturation" 1719756320 8 0 1 0 1 0 1 0 0 0 -1
+1 "video/interpolatepixels.plugin" "Interpolate Bayer" 1719756320 8 0 1 0 1 0 1 0 0 0 -1
+1 "video/interpolatevideo.plugin" "Interpolate Video" 1719756320 8 0 1 0 1 0 1 0 0 0 -1
+1 "video/invertvideo.plugin" "Invert Video" 1719756320 8 0 1 0 1 0 1 0 0 0 -1
+1 "video/irissquare.plugin" "IrisSquare" 1719756320 8 0 1 0 0 0 1 0 0 1 -1
+1 "video/ivtc.plugin" "Inverse Telecine" 1719756320 8 0 1 0 1 0 1 0 0 0 -1
+1 "video/lens.plugin" "Lens" 1719756320 8 0 1 0 1 0 1 0 0 0 -1
+1 "video/linearblur.plugin" "Linear Blur" 1719756320 8 0 1 0 1 0 1 0 0 0 -1
+1 "video/liveaudio.plugin" "Live Audio" 1719756320 8 1 0 0 1 0 1 1 1 0 -1
+1 "video/livevideo.plugin" "Live Video" 1719756320 8 0 1 0 1 0 1 0 1 0 -1
+1 "video/loopvideo.plugin" "Loop video" 1719756320 8 0 1 0 1 0 1 0 1 0 -1
+1 "video/mirror.plugin" "Mirror" 1719756320 8 0 1 0 1 0 1 0 0 0 -1
+1 "video/motion.plugin" "Motion" 1719756320 8 0 1 0 1 0 1 1 0 0 -1
+1 "video/motion2.plugin" "Motion 2 Point" 1719756320 8 0 1 0 1 0 1 1 0 0 -1
+1 "video/motion51.plugin" "Motion51" 1719756320 8 0 1 0 1 0 1 1 0 0 -1
+1 "video/motionblur.plugin" "Motion Blur" 1719756320 8 0 1 0 1 0 1 0 0 0 -1
+1 "video/oil.plugin" "Oil painting" 1719756320 8 0 1 0 1 0 1 0 0 0 -1
+1 "video/overlay.plugin" "Overlay" 1719756320 8 0 1 0 1 0 1 1 1 0 -1
+1 "video/perspective.plugin" "Perspective" 1719756320 8 0 1 0 1 0 1 0 0 0 -1
+1 "video/photoscale.plugin" "Auto Scale" 1719756320 8 0 1 0 1 0 1 0 0 0 -1
+1 "video/polar.plugin" "Polar" 1719756320 8 0 1 0 1 0 1 0 0 0 -1
+1 "video/radialblur.plugin" "Radial Blur" 1719756320 8 0 1 0 1 0 1 0 0 0 -1
+1 "video/reframe.plugin" "Reframe" 1719756320 8 0 1 0 0 0 1 0 0 0 -1
+1 "video/reframert.plugin" "ReframeRT" 1719756320 8 0 1 0 1 0 1 0 1 0 -1
+1 "video/reroute.plugin" "Reroute" 1719756320 8 0 1 0 1 0 1 1 0 0 -1
+1 "video/reversevideo.plugin" "Reverse video" 1719756320 8 0 1 0 1 0 1 0 0 0 -1
+1 "video/rgb601.plugin" "RGB - 601" 1719756320 8 0 1 0 1 0 1 0 0 0 -1
+1 "video/rgbshift.plugin" "RGBShift" 1719756320 8 0 1 0 1 0 1 0 0 0 -1
+1 "video/rotate.plugin" "Rotate" 1719756320 8 0 1 0 1 0 1 0 0 0 -1
+1 "video/rumbler.plugin" "Rumbler" 1719756320 8 0 1 0 1 0 1 0 0 0 -1
+1 "video/scale.plugin" "Scale" 1719756320 8 0 1 0 1 0 1 0 0 0 -1
+1 "video/scaleratio.plugin" "Scale Ratio" 1719756320 8 0 1 0 1 0 1 0 0 0 -1
+1 "video/seltempavg.plugin" "Selective Temporal Averaging" 1719756320 8 0 1 0 1 0 1 0 0 0 -1
+1 "video/shapewipe.plugin" "Shape Wipe" 1719756320 8 0 1 0 0 0 1 0 0 1 -1
+1 "video/sharpen.plugin" "Sharpen" 1719756320 8 0 1 0 1 0 1 0 0 0 -1
+1 "video/shiftinterlace.plugin" "ShiftInterlace" 1719756320 8 0 1 0 1 0 1 0 0 0 -1
+1 "video/sketcher.plugin" "Sketcher" 1719756320 8 0 1 0 1 0 1 0 1 0 -1
+1 "video/slide.plugin" "Slide" 1719756320 8 0 1 0 0 0 1 0 0 1 -1
+1 "video/speed_pc.plugin" "Speed PerCent" 1719756320 8 0 1 0 1 0 1 0 1 0 -1
+1 "video/spherecam.plugin" "Sphere Cam" 1719756320 8 0 1 0 1 0 1 0 0 0 -1
+1 "video/svg.plugin" "SVG via Inkscape" 1719756320 8 0 1 0 1 0 1 0 1 0 -1
+1 "video/swapchannels.plugin" "Swap channels" 1719756320 8 0 1 0 1 0 1 0 1 0 -1
+1 "video/swapframes.plugin" "Swap Frames" 1719756320 8 0 1 0 1 0 1 0 0 0 -1
+1 "video/swatch.plugin" "Color Swatch" 1719756320 8 0 1 0 1 0 1 0 1 0 -1
+1 "video/threshold.plugin" "Threshold" 1719756320 8 0 1 0 1 0 1 0 0 0 -1
+1 "video/timeavg.plugin" "Time Average" 1719756320 8 0 1 0 1 0 1 0 0 0 -1
+1 "video/timeblur.plugin" "TimeBlur" 1719756320 8 0 1 0 1 0 1 0 0 0 -1
+1 "video/timefront.plugin" "TimeFront" 1719756320 8 0 1 0 1 0 1 1 1 0 -1
+1 "video/titler.plugin" "Title" 1719756320 8 0 1 0 1 0 1 0 1 0 -1
+1 "video/tracer.plugin" "Tracer" 1719756320 8 0 1 0 1 0 1 0 0 0 -1
+1 "video/translate.plugin" "Translate" 1719756320 8 0 1 0 1 0 1 0 0 0 -1
+1 "video/unsharp.plugin" "Unsharp" 1719756320 8 0 1 0 1 0 1 0 0 0 -1
+1 "video/videoscope.plugin" "VideoScope" 1719756320 8 0 1 0 1 0 1 0 0 0 -1
+1 "video/wave.plugin" "Wave" 1719756320 8 0 1 0 1 0 1 0 0 0 -1
+1 "video/whirl.plugin" "Whirl" 1719756320 8 0 1 0 1 0 1 0 0 0 -1
+1 "video/wipe.plugin" "Wipe" 1719756320 8 0 1 0 0 0 1 0 0 1 -1
+1 "video/yuv.plugin" "YUV" 1719756320 8 0 1 0 1 0 1 0 0 0 -1
+1 "video/yuv411.plugin" "YUV411" 1719756320 8 0 1 0 1 0 1 0 0 0 -1
+1 "video/yuvshift.plugin" "YUVShift" 1719756320 8 0 1 0 1 0 1 0 0 0 -1
+1 "video/zoom.plugin" "Zoom" 1719756320 8 0 1 0 0 0 1 0 0 1 -1
+1 "video/zoomblur.plugin" "Zoom Blur" 1719756320 8 0 1 0 1 0 1 0 0 0 -1
+1 "posterize.plugin" "Posterize" 1719756320 3 0 1 0 1 0 1 0 0 0 -1
+1 "timelapsehelper.plugin" "Timelapse Helper" 1719756320 3 0 1 0 1 0 1 0 0 0 -1
+2 "abench" "F_abench" 0 0 1 0 0 1 0 1 1 1 0 -1
+2 "acompressor" "F_acompressor" 0 0 1 0 0 1 0 1 1 1 0 -1
+2 "acontrast" "F_acontrast" 0 0 1 0 0 1 0 1 1 1 0 -1
+2 "acue" "F_acue" 0 0 1 0 0 1 0 1 1 1 0 -1
+2 "acrusher" "F_acrusher" 0 0 1 0 0 1 0 1 1 1 0 -1
+2 "adecorrelate" "F_adecorrelate" 0 0 1 0 0 1 0 1 1 1 0 -1
+2 "adelay" "F_adelay" 0 0 1 0 0 1 0 1 1 1 0 -1
+2 "adenorm" "F_adenorm" 0 0 1 0 0 1 0 1 1 1 0 -1
+2 "aderivative" "F_aderivative" 0 0 1 0 0 1 0 1 1 1 0 -1
+2 "adrc" "F_adrc" 0 0 1 0 0 1 0 1 1 1 0 -1
+2 "adynamicequalizer" "F_adynamicequalizer" 0 0 1 0 0 1 0 1 1 1 0 -1
+2 "adynamicsmooth" "F_adynamicsmooth" 0 0 1 0 0 1 0 1 1 1 0 -1
+2 "aecho" "F_aecho" 0 0 1 0 0 1 0 1 1 1 0 -1
+2 "aemphasis" "F_aemphasis" 0 0 1 0 0 1 0 1 1 1 0 -1
+2 "aeval" "F_aeval" 0 0 1 0 0 1 0 1 1 1 0 -1
+2 "aexciter" "F_aexciter" 0 0 1 0 0 1 0 1 1 1 0 -1
+2 "afade" "F_afade" 0 0 1 0 0 1 0 1 1 1 0 -1
+2 "aformat" "F_aformat" 0 0 1 0 0 1 0 1 1 1 0 -1
+2 "afreqshift" "F_afreqshift" 0 0 1 0 0 1 0 1 1 1 0 -1
+2 "afwtdn" "F_afwtdn" 0 0 1 0 0 1 0 1 1 1 0 -1
+2 "agate" "F_agate" 0 0 1 0 0 1 0 1 1 1 0 -1
+2 "aintegral" "F_aintegral" 0 0 1 0 0 1 0 1 1 1 0 -1
+2 "alatency" "F_alatency" 0 0 1 0 0 1 0 1 1 1 0 -1
+2 "allpass" "F_allpass" 0 0 1 0 0 1 0 1 1 1 0 -1
+2 "aloop" "F_aloop" 0 0 1 0 0 1 0 1 1 1 0 -1
+2 "anlmdn" "F_anlmdn" 0 0 1 0 0 1 0 1 1 1 0 -1
+2 "aperms" "F_aperms" 0 0 1 0 0 1 0 1 1 1 0 -1
+2 "aphaser" "F_aphaser" 0 0 1 0 0 1 0 1 1 1 0 -1
+2 "aphaseshift" "F_aphaseshift" 0 0 1 0 0 1 0 1 1 1 0 -1
+2 "apsyclip" "F_apsyclip" 0 0 1 0 0 1 0 1 1 1 0 -1
+2 "arealtime" "F_arealtime" 0 0 1 0 0 1 0 1 1 1 0 -1
+2 "aresample" "F_aresample" 0 0 1 0 0 1 0 1 1 1 0 -1
+2 "asetrate" "F_asetrate" 0 0 1 0 0 1 0 1 1 1 0 -1
+2 "asoftclip" "F_asoftclip" 0 0 1 0 0 1 0 1 1 1 0 -1
+2 "aspectralstats" "F_aspectralstats" 0 0 1 0 0 1 0 1 1 1 0 -1
+2 "astats" "F_astats" 0 0 1 0 0 1 0 1 1 1 0 -1
+2 "asubboost" "F_asubboost" 0 0 1 0 0 1 0 1 1 1 0 -1
+2 "asubcut" "F_asubcut" 0 0 1 0 0 1 0 1 1 1 0 -1
+2 "asupercut" "F_asupercut" 0 0 1 0 0 1 0 1 1 1 0 -1
+2 "asuperpass" "F_asuperpass" 0 0 1 0 0 1 0 1 1 1 0 -1
+2 "asuperstop" "F_asuperstop" 0 0 1 0 0 1 0 1 1 1 0 -1
+2 "atempo" "F_atempo" 0 0 1 0 0 1 0 1 1 1 0 -1
+2 "atilt" "F_atilt" 0 0 1 0 0 1 0 1 1 1 0 -1
+2 "atrim" "F_atrim" 0 0 1 0 0 1 0 1 1 1 0 -1
+2 "bandpass" "F_bandpass" 0 0 1 0 0 1 0 1 1 1 0 -1
+2 "bandreject" "F_bandreject" 0 0 1 0 0 1 0 1 1 1 0 -1
+2 "bass" "F_bass" 0 0 1 0 0 1 0 1 1 1 0 -1
+2 "biquad" "F_biquad" 0 0 1 0 0 1 0 1 1 1 0 -1
+2 "chorus" "F_chorus" 0 0 1 0 0 1 0 1 1 1 0 -1
+2 "compand" "F_compand" 0 0 1 0 0 1 0 1 1 1 0 -1
+2 "compensationdelay" "F_compensationdelay" 0 0 1 0 0 1 0 1 1 1 0 -1
+2 "crossfeed" "F_crossfeed" 0 0 1 0 0 1 0 1 1 1 0 -1
+2 "crystalizer" "F_crystalizer" 0 0 1 0 0 1 0 1 1 1 0 -1
+2 "dcshift" "F_dcshift" 0 0 1 0 0 1 0 1 1 1 0 -1
+2 "deesser" "F_deesser" 0 0 1 0 0 1 0 1 1 1 0 -1
+2 "drmeter" "F_drmeter" 0 0 1 0 0 1 0 1 1 1 0 -1
+2 "earwax" "F_earwax" 0 0 1 0 0 1 0 1 1 1 0 -1
+2 "equalizer" "F_equalizer" 0 0 1 0 0 1 0 1 1 1 0 -1
+2 "extrastereo" "F_extrastereo" 0 0 1 0 0 1 0 1 1 1 0 -1
+2 "flanger" "F_flanger" 0 0 1 0 0 1 0 1 1 1 0 -1
+2 "haas" "F_haas" 0 0 1 0 0 1 0 1 1 1 0 -1
+2 "highpass" "F_highpass" 0 0 1 0 0 1 0 1 1 1 0 -1
+2 "lowpass" "F_lowpass" 0 0 1 0 0 1 0 1 1 1 0 -1
+2 "mcompand" "F_mcompand" 0 0 1 0 0 1 0 1 1 1 0 -1
+2 "pan" "F_pan" 0 0 1 0 0 1 0 1 1 1 0 -1
+2 "silenceremove" "F_silenceremove" 0 0 1 0 0 1 0 1 1 1 0 -1
+2 "stereotools" "F_stereotools" 0 0 1 0 0 1 0 1 1 1 0 -1
+2 "stereowiden" "F_stereowiden" 0 0 1 0 0 1 0 1 1 1 0 -1
+2 "tiltshelf" "F_tiltshelf" 0 0 1 0 0 1 0 1 1 1 0 -1
+2 "treble" "F_treble" 0 0 1 0 0 1 0 1 1 1 0 -1
+2 "tremolo" "F_tremolo" 0 0 1 0 0 1 0 1 1 1 0 -1
+2 "vibrato" "F_vibrato" 0 0 1 0 0 1 0 1 1 1 0 -1
+2 "virtualbass" "F_virtualbass" 0 0 1 0 0 1 0 1 1 1 0 -1
+2 "volume" "F_volume" 0 0 1 0 0 1 0 1 1 1 0 -1
+2 "volumedetect" "F_volumedetect" 0 0 1 0 0 1 0 1 1 1 0 -1
+2 "afdelaysrc" "F_afdelaysrc" 0 0 1 0 0 1 0 1 1 1 0 -1
+2 "anoisesrc" "F_anoisesrc" 0 0 1 0 0 1 0 1 1 1 0 -1
+2 "hilbert" "F_hilbert" 0 0 1 0 0 1 0 1 1 1 0 -1
+2 "sine" "F_sine" 0 0 1 0 0 1 0 1 1 1 0 -1
+2 "addroi" "F_addroi" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "amplify" "F_amplify" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "atadenoise" "F_atadenoise" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "avgblur" "F_avgblur" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "backgroundkey" "F_backgroundkey" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "bbox" "F_bbox" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "bench" "F_bench" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "bilateral" "F_bilateral" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "bitplanenoise" "F_bitplanenoise" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "blackdetect" "F_blackdetect" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "blackframe" "F_blackframe" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "blockdetect" "F_blockdetect" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "blurdetect" "F_blurdetect" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "boxblur" "F_boxblur" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "bwdif" "F_bwdif" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "cas" "F_cas" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "ccrepack" "F_ccrepack" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "chromahold" "F_chromahold" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "chromakey" "F_chromakey" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "chromanr" "F_chromanr" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "chromashift" "F_chromashift" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "ciescope" "F_ciescope" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "colorbalance" "F_colorbalance" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "colorchannelmixer" "F_colorchannelmixer" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "colorcontrast" "F_colorcontrast" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "colorcorrect" "F_colorcorrect" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "colorize" "F_colorize" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "colorkey" "F_colorkey" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "colorhold" "F_colorhold" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "colorlevels" "F_colorlevels" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "colormatrix" "F_colormatrix" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "colorspace" "F_colorspace" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "colortemperature" "F_colortemperature" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "cover_rect" "F_cover_rect" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "crop" "F_crop" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "cropdetect" "F_cropdetect" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "curves" "F_curves" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "datascope" "F_datascope" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "dblur" "F_dblur" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "dctdnoiz" "F_dctdnoiz" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "deband" "F_deband" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "deblock" "F_deblock" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "dedot" "F_dedot" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "deflate" "F_deflate" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "deflicker" "F_deflicker" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "dejudder" "F_dejudder" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "delogo" "F_delogo" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "deshake" "F_deshake" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "despill" "F_despill" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "dilation" "F_dilation" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "doubleweave" "F_doubleweave" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "drawbox" "F_drawbox" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "drawgraph" "F_drawgraph" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "drawgrid" "F_drawgrid" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "edgedetect" "F_edgedetect" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "elbg" "F_elbg" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "entropy" "F_entropy" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "epx" "F_epx" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "eq" "F_eq" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "erosion" "F_erosion" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "estdif" "F_estdif" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "exposure" "F_exposure" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "fade" "F_fade" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "fftdnoiz" "F_fftdnoiz" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "fftfilt" "F_fftfilt" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "field" "F_field" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "fieldorder" "F_fieldorder" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "fillborders" "F_fillborders" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "floodfill" "F_floodfill" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "format" "F_format" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "framerate" "F_framerate" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "framestep" "F_framestep" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "fspp" "F_fspp" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "gblur" "F_gblur" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "gradfun" "F_gradfun" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "graphmonitor" "F_graphmonitor" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "grayworld" "F_grayworld" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "greyedge" "F_greyedge" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "hflip" "F_hflip" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "histeq" "F_histeq" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "histogram" "F_histogram" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "hqdn3d" "F_hqdn3d" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "hqx" "F_hqx" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "hsvhold" "F_hsvhold" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "hsvkey" "F_hsvkey" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "hue" "F_hue" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "huesaturation" "F_huesaturation" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "idet" "F_idet" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "il" "F_il" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "inflate" "F_inflate" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "kerndeint" "F_kerndeint" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "kirsch" "F_kirsch" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "lagfun" "F_lagfun" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "latency" "F_latency" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "lenscorrection" "F_lenscorrection" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "limiter" "F_limiter" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "loop" "F_loop" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "lumakey" "F_lumakey" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "lut" "F_lut" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "lut1d" "F_lut1d" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "lut3d" "F_lut3d" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "lutrgb" "F_lutrgb" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "lutyuv" "F_lutyuv" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "maskfun" "F_maskfun" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "mcdeint" "F_mcdeint" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "median" "F_median" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "mestimate" "F_mestimate" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "minterpolate" "F_minterpolate" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "monochrome" "F_monochrome" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "mpdecimate" "F_mpdecimate" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "negate" "F_negate" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "nlmeans" "F_nlmeans" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "noise" "F_noise" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "normalize" "F_normalize" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "oscilloscope" "F_oscilloscope" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "owdenoise" "F_owdenoise" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "pad" "F_pad" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "perms" "F_perms" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "perspective" "F_perspective" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "phase" "F_phase" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "photosensitivity" "F_photosensitivity" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "pixelize" "F_pixelize" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "pixscope" "F_pixscope" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "pp" "F_pp" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "pp7" "F_pp7" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "prewitt" "F_prewitt" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "pseudocolor" "F_pseudocolor" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "pullup" "F_pullup" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "readeia608" "F_readeia608" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "readvitc" "F_readvitc" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "realtime" "F_realtime" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "removegrain" "F_removegrain" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "repeatfields" "F_repeatfields" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "rgbashift" "F_rgbashift" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "roberts" "F_roberts" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "rotate" "F_rotate" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "sab" "F_sab" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "scale" "F_scale" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "scdet" "F_scdet" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "scharr" "F_scharr" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "scroll" "F_scroll" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "selectivecolor" "F_selectivecolor" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "separatefields" "F_separatefields" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "setparams" "F_setparams" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "setrange" "F_setrange" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "shear" "F_shear" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "showpalette" "F_showpalette" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "shuffleframes" "F_shuffleframes" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "shufflepixels" "F_shufflepixels" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "shuffleplanes" "F_shuffleplanes" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "signalstats" "F_signalstats" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "siti" "F_siti" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "smartblur" "F_smartblur" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "sobel" "F_sobel" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "spp" "F_spp" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "stereo3d" "F_stereo3d" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "super2xsai" "F_super2xsai" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "swaprect" "F_swaprect" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "swapuv" "F_swapuv" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "tblend" "F_tblend" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "thistogram" "F_thistogram" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "tile" "F_tile" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "tinterlace" "F_tinterlace" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "tlut2" "F_tlut2" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "tmedian" "F_tmedian" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "tmidequalizer" "F_tmidequalizer" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "tmix" "F_tmix" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "tonemap" "F_tonemap" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "tpad" "F_tpad" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "transpose" "F_transpose" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "transpose_vaapi" "F_transpose_vaapi" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "unsharp" "F_unsharp" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "untile" "F_untile" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "uspp" "F_uspp" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "v360" "F_v360" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "vaguedenoiser" "F_vaguedenoiser" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "vectorscope" "F_vectorscope" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "vflip" "F_vflip" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "vfrdet" "F_vfrdet" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "vibrance" "F_vibrance" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "vignette" "F_vignette" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "w3fdif" "F_w3fdif" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "waveform" "F_waveform" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "weave" "F_weave" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "xbr" "F_xbr" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "yadif" "F_yadif" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "yaepblur" "F_yaepblur" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "zoompan" "F_zoompan" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "allrgb" "F_allrgb" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "allyuv" "F_allyuv" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "cellauto" "F_cellauto" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "color" "F_color" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "colorchart" "F_colorchart" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "colorspectrum" "F_colorspectrum" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "gradients" "F_gradients" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "haldclutsrc" "F_haldclutsrc" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "life" "F_life" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "mandelbrot" "F_mandelbrot" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "mptestsrc" "F_mptestsrc" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "pal75bars" "F_pal75bars" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "pal100bars" "F_pal100bars" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "rgbtestsrc" "F_rgbtestsrc" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "sierpinski" "F_sierpinski" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "smptebars" "F_smptebars" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "smptehdbars" "F_smptehdbars" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "testsrc" "F_testsrc" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "testsrc2" "F_testsrc2" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "yuvtestsrc" "F_yuvtestsrc" 0 0 0 1 0 1 0 1 1 1 0 -1
+2 "zoneplate" "F_zoneplate" 0 0 0 1 0 1 0 1 1 1 0 -1

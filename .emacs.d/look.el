@@ -17,15 +17,10 @@
 
 (toggle-frame-maximized)
 
-(require 'yasnippet)
-(yas-global-mode 1)
 (require 'command-log-mode)
-
 (require 'winum)
-
 (setq Man-notify-method 'pushy
       winum-scope 'frame-local)
-
 (defun winum-replace-window (window-number key-sequence)
   (interactive "P\nkKey sequence: ")
   (let ((sym (key-binding key-sequence))

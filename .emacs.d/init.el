@@ -30,9 +30,11 @@
  '(org-agenda-files nil)
  '(org-directory "/home/kompowiec/Org/")
  '(package-selected-packages
-   '(winum imgur.el erc command-log-mode yasnippet the-matrix-theme org-roam-ui ## erc-image emojify magit flycheck org-roam evil))
+   '(winum imgur.el erc command-log-mode org-roam-ui ## erc-image emojify magit flycheck org-roam evil))
  '(package-vc-selected-packages
-   '((imgur.el :vc-backend Git :url "https://github.com/myuhe/imgur.el.git"))))
+   '((imgur.el :vc-backend Git :url "https://github.com/MetroWind/notink-theme.git")
+ ((erc-status-sidebar.el :vc-backend Git :url "https://github.com/drewbarbs/erc-status-sidebar.git"))
+		 )))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

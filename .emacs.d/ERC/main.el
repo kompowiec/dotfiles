@@ -24,7 +24,6 @@
 (require 'erc-track)
 (require 'erc-status-sidebar) ;channels
 (add-hook 'erc-mode-hook #'erc-status-sidebar-open)
-(add-to-list 'erc-modules 'nickbar) ;users
 
 ;This section sets up erc to add a timestamp to each message.
 (erc-timestamp-mode t)

@@ -8,6 +8,14 @@ go build -trimpath -mod=readonly -modcacherw -ldflags '-X "main.yayVersion=12.3.
 go mod init
 go mod init example.com/yay
 sudo chown -R username:username /home/username/yay/pkg
+find . -type f -name '* (1).*' -exec rm -v {} \; #To remove files with (1) in their names on Linux, you can use the find command with rm. Here is the exact command you can use
+# To remove files with `(1)` in their names on Linux, you can use the `find` command with `rm`. Here is the exact command you can use:
+# Explanation:
+#- `find .`: Searches in the current directory.
+#- `-type f`: Finds files only.
+#- `-name '* (1).*'`: Matches files with `(1)` before the extension.
+#- `-exec rm -v {} \;`: Deletes each matching file, showing the names of deleted files.
+#**Note**: Make sure to run this command from the directory containing the files or specify the correct path to the directory. Always double-check files before deleting to avoid accidental data loss.
 
 
 

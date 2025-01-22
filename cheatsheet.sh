@@ -16,6 +16,5 @@ find . -type f -name '* (1).*' -exec rm -v {} \; #To remove files with (1) in th
 #- `-name '* (1).*'`: Matches files with `(1)` before the extension.
 #- `-exec rm -v {} \;`: Deletes each matching file, showing the names of deleted files.
 #**Note**: Make sure to run this command from the directory containing the files or specify the correct path to the directory. Always double-check files before deleting to avoid accidental data loss.
-
-
+while true; do xdotool mousemove 1 1; xdotool mousemove 0 0; sleep 300; done #This script moves the mouse slightly every 5 minutes to prevent sleep.
 

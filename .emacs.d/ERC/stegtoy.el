@@ -59,21 +59,24 @@
                    "\x03\x030,09"
                    "\x03\x030,10"))
 
-(defun erc-encode-msg (string)
-  "Encode the message with the specified cover message."
+(defun erc-encode-msg (string cover-message)
+  "Encode the STRING using specified COVER-MESSAGE."
   (let* ((len (length string))
-         (cover-message (random-ascii-chars len))
          (chars (split-string string "" t))
+         (cover-len (length cover-message))
          (count 0))
 
     (setq encoded "")
     (while (>= len 1)
       (setq len (- len 1))
       (setq count (+ count 1))
-      (setq encoded (concat encoded (cdr (assoc (nth (- count 1) chars) COLORS))
-                            (substring cover-message (- count 1) count))))
+      (let ((cover-char (if (>= count cover-len)
+                            "x" ;; Fallback if cover text runs out
+                          (substring cover-message (- count 1) count))))
+        (setq encoded (concat encoded
+                              (cdr (assoc (nth (- count 1) chars) COLORS))
+                              cover-char))))
     encoded))
-
 
 (defun random-ascii-chars (len)
   (setq chars "")
@@ -146,4 +149,12 @@
         ((string-equal status "disable")
          (remove-hook 'erc-insert-pre-hook #'erc-decode-check)
          (remove-hook 'erc-insert-modify-hook #'erc-decode-modify))))
+
+
+(defun erc-cmd-ENCODE (string)
+  "Prompt for cover text and encode STRING."
+  (let ((cover-message (read-string "Enter cover text: ")))
+    (setq encoded (erc-encode-msg string cover-message))
+    (erc-send-input encoded)
+    (setq encoded nil)))
 

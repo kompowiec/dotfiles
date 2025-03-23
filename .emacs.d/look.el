@@ -17,8 +17,6 @@
 
 (toggle-frame-maximized)
 
-(require 'command-log-mode)
-(require 'winum)
 (setq Man-notify-method 'pushy
       winum-scope 'frame-local)
 (defun winum-replace-window (window-number key-sequence)

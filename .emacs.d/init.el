@@ -30,7 +30,7 @@
  '(org-agenda-files nil)
  '(org-directory "/home/kompowiec/Org/")
  '(package-selected-packages
-   '(winum imgur.el erc command-log-mode org-roam-ui ## erc-image emojify magit flycheck org-roam evil))
+   '(imgur.el erc org-roam-ui ## erc-image emojify magit flycheck org-roam evil))
  '(package-vc-selected-packages
    '((imgur.el :vc-backend Git :url "https://github.com/MetroWind/notink-theme.git")
  ((erc-status-sidebar.el :vc-backend Git :url "https://github.com/drewbarbs/erc-status-sidebar.git"))

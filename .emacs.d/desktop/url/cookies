@@ -1,0 +1,32 @@
+;; Emacs-W3 HTTP cookies file
+;; Automatically generated file!!! DO NOT EDIT!!!
+
+(setq url-cookie-storage
+ 'nil
+)
+(setq url-cookie-secure-storage
+ '((".youtube.com"
+  [url-cookie "__Secure-YEC"
+	      "Cgt0Z3puTW5TMlpERSim4MbBBjInCgJQTBIhEh0SGwsMDg8QERITFBUWFxgZGhscHR4fICEiIyQlJiAh"
+	      "Thu, 21-Aug-2025 11:23:12 GMT" "/" ".youtube.com" t]
+  [url-cookie "VISITOR_PRIVACY_METADATA"
+	      "CgJQTBIhEh0SGwsMDg8QERITFBUWFxgZGhscHR4fICEiIyQlJiAh"
+	      "Tue, 23-Jun-2026 11:40:22 GMT" "/" ".youtube.com" t])
+ ("reddit.com"
+  [url-cookie "edgebucket" "JHskGStxej0wFa0ldf"
+	      "pon lip 27 17:54:28 2026 GMT" "/" "reddit.com" t])
+ (".reddit.com"
+  [url-cookie "csv" "2" "pon lip 27 17:54:31 2026 GMT" "/"
+	      ".reddit.com" t]
+  [url-cookie "loid"
+	      "0000000015fikejjn4.2.1722102870375.Z0FBQUFBQm1wVFJXYnhJQXBUUTI2S2w0ZFVmZld2NTBWNTF6ZnJBX2NFNWVMMGxMa250RE0tWFB4ck8tNTZDOUZwZ1FNTnMySnRSVVRfTGtHQTR4blludnV3TTFzOFZmalNEaVFaWVdhVkwxUFdPMFMxZjJMbUI1dmJqeXlrT1lDOVE5VmdUZk1XeGU"
+	      "Mon, 27 Jul 2026 17:54:30 GMT" "/" ".reddit.com" t]))
+)
+
+;; Local Variables:
+;; version-control: never
+;; no-byte-compile: t
+;; coding: utf-8-emacs-unix
+;; End:
+
+;;; cookies ends here

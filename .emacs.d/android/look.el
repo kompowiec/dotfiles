@@ -1,3 +1,8 @@
+(use-package material-theme
+  :ensure t
+  :config
+  (load-theme 'material t)) ; or 'material-light if you prefer light mode
+
 (global-visual-line-mode 1)  ;; Enable word wrapping
 (setq pixel-scroll-precision-use-momentum nil) ;; Disable momentum scrolling  
 (pixel-scroll-precision-mode 1)  ;; Smooth scrolling  

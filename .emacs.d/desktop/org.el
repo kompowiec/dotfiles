@@ -13,7 +13,6 @@
 	(let ((lang (ring-ref lang-ring -1)))
 		(ring-insert lang-ring lang)
 		(ispell-change-dictionary lang)))
-
 (global-set-key (kbd "C-1") 'cycle-ispell-languages)
 
 ;org

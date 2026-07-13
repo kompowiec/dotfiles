@@ -1,0 +1,7 @@
+;;; -*- lisp-data -*-
+(("/home/kompowiec2/.local/stow/dotfiles/.emacs.d/desktop/elpa/material-theme/")
+ ("/home/kompowiec2/.local/stow/dotfiles/.emacs.d/desktop/elpa/mediawiki-el/")
+ ("/home/kompowiec2/.local/stow/dotfiles/.emacs.d/desktop/elpa/erc-status-sidebar/")
+ ("/home/kompowiec2/.local/stow/dotfiles/.emacs.d/desktop/elpa/jabber-ox-mode/")
+ ("/home/kompowiec2/.local/stow/dotfiles/")
+ ("/home/kompowiec2/.local/stow/dotfiles/.emacs.d/desktop/elpa/any-buffer-toggle/"))
